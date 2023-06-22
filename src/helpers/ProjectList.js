@@ -9,33 +9,39 @@ export const ProjectList = [
     name: "Crypto Tracker",
     image: Proj1,
     skills: "Reactjs, Axios, Sass, Material-ui, HTML,CSS",
+    status: "Complete"
   },
   {
     name: "Fun Projects with Reactjs",
     image: Projnew,
     skills: "React",
+    status: "In Progress"
   },
   {
     name: "Emoji Generator",
     image: emoji,
-    skills: "React, HTML,CSS"
+    skills: "React, HTML,CSS",
+    status: "Completed"
   },
   {
     name: "Paassword Validation",
     image: Proj7,
-    skills: "Reactjs & Regex"
+    skills: "Reactjs & Regex",
+    status: "Completed"
 
   },
   {
     name: "My ToDo App",
     image: Proj5a,
-    skills: "React and Redux"
+    skills: "React and Redux/Redux Toolkit",
+    status: "In Progress"
 
   },
   {
     name: "Weather App",
     image: Proj6a,
-    skills: "React and Redux"
+    skills: "React and Redux",
+    status: "Stay tuned!!"
 
   }
 ];
