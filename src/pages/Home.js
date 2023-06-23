@@ -4,6 +4,7 @@ import React from "react";
 // import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 import self_photo from "../assets/self_photo.jpg";
+import ContactForm from "../components/ContactForm/ContactForm";
 
 function Home() {
   return (
@@ -19,7 +20,10 @@ function Home() {
           <p>Welcome to my portfolio page.</p>
           {/* <p>More to come</p> */}
         </div>
+        <div>
 
+        </div>
+          <ContactForm />
       </div>
     </div>
   );
