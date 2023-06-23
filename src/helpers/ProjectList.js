@@ -24,7 +24,7 @@ export const ProjectList = [
     status: "Completed"
   },
   {
-    name: "Paassword Validation",
+    name: "Password Validation",
     image: Proj7,
     skills: "Reactjs & Regex",
     status: "Completed"

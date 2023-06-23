@@ -13,7 +13,7 @@ import PasswordValidation from "./pages/PasswordValidation";
 import EmojiPage from "./pages/EmojiPage";
 
 // import Navbar from "./components/Navbar";
-import ResponsiveAppBar from "./components/ResponsiveAppBar";
+import ResponsiveAppBar from "./components/ResponsiveAppBar/ResponsiveAppBar";
 // import NotFound from "./NotFound";
 
 

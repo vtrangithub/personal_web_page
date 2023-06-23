@@ -8,6 +8,7 @@ function Resume() {
                 <div className="col-md-7">
                     <h2>Viet Hung Tran</h2>
                     <p className="lead">Web Developer and Integration Engineer</p>
+                    <p> My Personal Website: https://viethungtranwebdev.com/Home</p>
                     <hr />
                     <h3>Professional Summary</h3>
                     <p>Highly motivated, knowledgeable and skilled Web Developer in creating visually appealing, user-friendly and responsive websites and web applications. Proficient in HTML, CSS, JavaScript, Python, Bootstrap, and ReactJS with a solid understanding of web design principles, cross-browser compatibility and accessibility standards. A quick learner and team player with excellent problem-solving and communication skills.</p>
@@ -30,24 +31,24 @@ function Resume() {
                     <h3>Project Portfolio</h3>
                     <h5>Personal Page (React, JavaScript, HTML, CSS):</h5>
 
-                    <li>Designed and developed a personal website to showcase my skills as a web developer.</li>
+                    <li>Designed and developed a personal website to showcase my skills as a front end web developer.</li>
                     <li>Built using React, Redux, and Sass.</li>
                     <li>Implemented responsive design and cross-browser compatibility.</li>
                     <li>Added animations and transitions for a visually engaging user experience.</li>
-
+                    <li>Demonstrated proficiency in ReactJS, HTML, and CSS while showcasing strong UI design principles and attention to detail.</li>
 
                     <br />
                     <h5>Crypto Tracker App (React, JavaScript, HTML, CSS):</h5>
                     <li>Developed a single-page application using React and styled with HTML and CSS.</li>
                     <li>Implemented real-time data fetching of cryptocurrency prices using an API.</li>
                     <li>Designed and developed the user interface for displaying real-time data in a clean and organized manner.</li>
-                    <li>Added animations and transitions for a visually engaging user experience.</li>
+                    
                     <hr />
                     <h5>To Do List App (React, Redux, JavaScript, HTML, CSS):</h5>
 
                     <li>Developed a front-end to-do application using React and Redux, showcasing expertise in modern front-end web development.</li>
                     <li>Built using React, Redux, and Sass.</li>
-                    <li>Implemented features for task creation, deletion, and updating, leveraging Redux for efficient state management.</li>
+                    <li>Implemented features for task adding, task searching, and filtering, leveraging Redux for efficient state management.</li>
                     <li>Created a responsive user interface using React components, enhancing the user experience.</li>
 
 

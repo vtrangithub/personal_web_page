@@ -4,7 +4,7 @@ import { GitHub } from '@material-ui/icons';
 
 const MyGithubIcon = () => {
   const openGithubProfile = () => {
-    window.open('https://github.com/vtrangithub', '_blank');
+    window.open('https://github.com/vtrangithub/personal_web_page', '_blank');
   };
 
   return (

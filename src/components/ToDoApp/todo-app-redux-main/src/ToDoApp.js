@@ -13,14 +13,14 @@ function ToDoApp() {
         margin: '0 auto',
         display: 'flex',
         flexDirection: 'column',
-        backgroundColor: 'white',
+        backgroundColor: 'antiquewhite',
         padding: 20,
         boxShadow: '0 0 10px 4px #bfbfbf',
         borderRadius: 5,
         height: '90vh',
       }}
     >
-      <Title style={{ textAlign: 'center' }}>TODO APP with REDUX</Title>
+      <Title style={{ textAlign: 'center' }}>MY TODO APP</Title>
       <Filters />
       <Divider />
       <TodoList />
