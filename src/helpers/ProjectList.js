@@ -41,8 +41,8 @@ export const ProjectList = [
   {
     name: "Weather App",
     image: Proj6a,
-    skills: "React and Redux",
-    status: "Stay tuned!!"
+    skills: "React & API",
+    status: "Completed"
 
   }
 ];
