@@ -1,0 +1,21 @@
+.resume-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .resume-container {
+      padding: 10px;
+    }
+  }
+  
+  /* Additional styles for mobile view */
+  
+  @media (max-width: 480px) {
+    .resume-container {
+      padding: 5px;
+    }
+  }
+  

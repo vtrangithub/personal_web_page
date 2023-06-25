@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useContext} from "react";
 import axios from "axios";
 import "./CoinTable.css"
-import Coin from "../Coin/Coin";
+import Coin from '../Coin/Coin'
 import { coinPassed } from "../CoinSearch/CoinSearch";
 
 const CoinTable = () => {

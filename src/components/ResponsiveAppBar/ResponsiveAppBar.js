@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 
 
 
-const pages = ["Home", "My Projects", "Education & Work Experiences", "My Resume", "My Crypto Page", "My ToDo List", "Password Validation", "Emoji Generator"];
+const pages = ["Home", "Education & Work Experiences", "My Resume", "My Projects","My Crypto Page", "My ToDo List", "Password Validation", "Emoji Generator"];
 
 
 function ResponsiveAppBar() {

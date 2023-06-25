@@ -1,13 +1,14 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import '../Resume/ResumeStyle.css'
 
 function Resume() {
     return (
-        <div className="container mt-5">
-            <div className="row">
-                <div className="col-md-7">
+        <div className='resume-container'>
+            <div >
+                <div>
                     <h2>Viet Hung Tran</h2>
-                    <p className="lead">Web Developer and Integration Engineer</p>
+                    <p>Web Developer and Integration Engineer</p>
                     <p> My Personal Website: https://viethungtranwebdev.com/Home</p>
                     <hr />
                     <h3>Professional Summary</h3>

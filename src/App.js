@@ -1,28 +1,30 @@
 import "./App.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import HomePage from '../src/pages/HomePage';
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
-import Resume from "./pages/Resume";
-import CoinSearch from "./components/CoinSearch/CoinSearch";
+import ResumePage from "./pages/ResumePage";
+// import CoinSearch from "./components/CoinSearch/CoinSearch";
+import CryptoPage from "./pages/CryptoPage";
 import MyToDoList from "./pages/MyTodoList.js";
 import PasswordValidation from "./pages/PasswordValidation";
 import EmojiPage from "./pages/EmojiPage";
 
 // import Navbar from "./components/Navbar";
 import ResponsiveAppBar from "./components/ResponsiveAppBar/ResponsiveAppBar";
+// import HomePage from "./pages/HomePage";
 // import NotFound from "./NotFound";
 
 
 
 function App() {
   return (
-    
+
     <div className="App">
-      
+
       <Router>
 
         {/* <Navbar /> */}
@@ -44,13 +46,13 @@ function App() {
           {/* <Route path='*' element={<NotFound />} /> */}
           {/* <Route path="/" element={<Home />} /> */}
 
-          <Route path="Home" element={<Home />} />
+          <Route path="Home" element={<HomePage />} />
 
           <Route path="My Projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="Education & Work Experiences" element={<Experience />} />
-          <Route path="My Resume" element={<Resume />} />
-          <Route path="My Crypto Page" element={<CoinSearch />} />
+          <Route path="My Resume" element={<ResumePage />} />
+          <Route path="My Crypto Page" element={<CryptoPage />} />
           <Route path="My ToDo List" element={<MyToDoList />} />
           <Route path="Password Validation" element={<PasswordValidation />} />
           <Route path="Emoji Generator" element={<EmojiPage />} />
