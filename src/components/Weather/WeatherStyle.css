@@ -1,0 +1,7 @@
+
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh; /* Optional: Set the height of the container div */
+}

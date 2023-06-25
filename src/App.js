@@ -17,7 +17,7 @@ import EmojiPage from "./pages/EmojiPage";
 import ResponsiveAppBar from "./components/ResponsiveAppBar/ResponsiveAppBar";
 // import HomePage from "./pages/HomePage";
 // import NotFound from "./NotFound";
-
+import WeatherPage from "./pages/WeatherPage";
 
 
 function App() {
@@ -56,6 +56,7 @@ function App() {
           <Route path="My ToDo List" element={<MyToDoList />} />
           <Route path="Password Validation" element={<PasswordValidation />} />
           <Route path="Emoji Generator" element={<EmojiPage />} />
+          <Route path ="My WeatherApp" element ={<WeatherPage />} />
         </Routes>
         <Footer />
       </Router>

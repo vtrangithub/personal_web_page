@@ -15,7 +15,10 @@ const PasswordValidationOne = () => {
         // Use Regular Expression for password criteria
         // const regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
         // const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$/;
-        const passwordRegex = /^(?!.*(?:@|\b(?:[a-z0-9](?:\.[a-z0-9])*)\.[a-z]{2,}\b))(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=(.*[~!@#$%^&*]){2}).{14,}$/;
+        // const passwordRegex = /^(?!.*(?:@|\b(?:[a-z0-9](?:\.[a-z0-9])*)\.[a-z]{2,}\b))(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=(.*[~!@#$%^&*]){2}).{14,}$/;
+
+        // Below is the current expression
+        const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[~!@#$%^&*]{2})(?!.*\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b).{14,}$/;
 
         const isValidPassword = passwordRegex.test(password);
         setValid(isValidPassword);

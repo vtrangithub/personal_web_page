@@ -1,19 +1,19 @@
 import PasswordValidationOne from '../components/PasswordValidation/PasswordValidationOne';
 import PasswordValidationTwo from '../components/PasswordValidation/PasswordValidationTwo';
 import PasswordValidationThree from '../components/PasswordValidation/PasswordValidationThree';
-// import './App.css';
+
 import '../components/PasswordValidation/PasswordValidation.scss';
 
 
 function PasswordValidation() {
   return <>
-    <div className="PasswordValidation">
+    <div className="centered-content">
       <h1> Password Validation</h1>
     </div>
-    <div>
+    <div className="centered-content">
       <h2>Password Validation 1</h2>
     </div>
-    <div>
+    <div className="centered-content">
       <p>The criteria:</p>
       <ul>
         <li>At least one digit</li>
@@ -26,10 +26,10 @@ function PasswordValidation() {
       <PasswordValidationOne />
     </div>
     <br /> <hr />
-    <div>
+    <div className="centered-content">
       <h2>Password Validation 2</h2>
     </div>
-    <div>
+    <div className="centered-content">
       <p>The criteria:</p>
       <ul>
         <li>Minimum length of 8 characters.</li>
@@ -43,10 +43,10 @@ function PasswordValidation() {
       <PasswordValidationTwo />
     </div>
     <br /><hr />
-    <div>
+    <div className="centered-content">
       <h2>Password Validation 3</h2>
     </div>
-    <div>
+    <div className="centered-content">
       <p>The criteria:</p>
       <ul>
         <li>Must contain at least 14 characters.</li>

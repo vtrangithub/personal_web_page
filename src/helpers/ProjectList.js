@@ -4,6 +4,7 @@ import emoji from '../assets/emoji.jpg'
 import Proj7 from "../assets/proj7.jpg";
 import Proj5a from "../assets/proj5a.jpg";
 import Proj6a from "../assets/proj6a.jpg";
+
 export const ProjectList = [
   {
     name: "Crypto Tracker",
@@ -14,7 +15,7 @@ export const ProjectList = [
   {
     name: "Fun Projects with Reactjs",
     image: Projnew,
-    skills: "React",
+    skills: "React, Javascript, HTML, CSS",
     status: "In Progress"
   },
   {

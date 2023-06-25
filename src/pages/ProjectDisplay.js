@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
+// import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
@@ -10,12 +10,12 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <h6><b>(Status: {project.status})</b></h6>
-      <img src={project.image} />
+      <h3><b>(Status: {project.status})</b></h3>
+      <img src={project.image} alt="" />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon />
+      {/* <GitHubIcon /> */}
     </div>
   );
 }
