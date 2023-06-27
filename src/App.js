@@ -9,7 +9,7 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 import ResumePage from "./pages/ResumePage";
 // import CoinSearch from "./components/CoinSearch/CoinSearch";
 import CryptoPage from "./pages/CryptoPage";
-import MyToDoList from "./pages/MyTodoList.js";
+
 import PasswordValidation from "./pages/PasswordValidation";
 import EmojiPage from "./pages/EmojiPage";
 
@@ -18,6 +18,7 @@ import ResponsiveAppBar from "./components/ResponsiveAppBar/ResponsiveAppBar";
 // import HomePage from "./pages/HomePage";
 // import NotFound from "./NotFound";
 import WeatherPage from "./pages/WeatherPage";
+import MyToDoPage from "./pages/MyToDoPage";
 
 
 function App() {
@@ -53,7 +54,7 @@ function App() {
           <Route path="Education & Work Experiences" element={<Experience />} />
           <Route path="My Resume" element={<ResumePage />} />
           <Route path="My Crypto Page" element={<CryptoPage />} />
-          <Route path="My ToDo List" element={<MyToDoList />} />
+          <Route path="My ToDo List" element={<MyToDoPage />} />
           <Route path="Password Validation" element={<PasswordValidation />} />
           <Route path="Emoji Generator" element={<EmojiPage />} />
           <Route path ="My WeatherApp" element ={<WeatherPage />} />
