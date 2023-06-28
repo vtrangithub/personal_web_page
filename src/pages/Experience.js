@@ -83,7 +83,7 @@ function Experience() {
             R and D Integration Engineer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Blue Origin LLC ,Kent, WA
+            Blue Origin LLC, Kent, WA
           </h4>
           <ul>
             <li>Lead role in ensuring and maintaining integration and testing, functional verification, and troubleshooting of propulsion systems and components. Performed multiple material tests on propulsion system team as per requests and instructions provided by engineers.</li>
@@ -99,7 +99,7 @@ function Experience() {
             Aircraft Test Tech A
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Boeing ,Renton, WA
+            Boeing, Renton, WA
           </h4>
           <ul>
             <li>Expertly performed and ensured testing, troubleshooting and repairing of all mechanical and electrical systems on aircraft prior to flight tests. Revitalized multiple systems, executing a range of functional tests as per drawings, test documents, nonconformance reports and other documents to verify integrity of the systems.</li>
@@ -116,7 +116,7 @@ function Experience() {
             FAA Avionics Specialist
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Honeywell ,Renton, WA
+            Honeywell, Renton, WA
           </h4>
           <ul>
             <li>Attained certification as technician and quality inspector for avionic devices, while troubleshooting, inspecting, repairing, overhauling, testing, modifying, and maintaining the Radar Transceiver. </li>

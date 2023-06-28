@@ -1,8 +1,8 @@
 import React from "react";
 import "../Home/Home.css";
 import self_photo from '../Home/self_photo.jpg';
+import ContactMe from "../ContactForm/ContactMe";
 
-import ContactForm from '../ContactForm/ContactForm';
 
 function Home() {
   return (
@@ -24,7 +24,7 @@ function Home() {
 
         <br />
         <div>
-          <ContactForm />
+          <ContactMe />
         </div>
       </div>
 

@@ -8,21 +8,26 @@
 }
 
 .project h1 {
+  margin-top: 60px;
+  color: #930a0a;
+  font-size: 45px;
+}
+.project h3 {
   margin-top: 50px;
-  color: #3e497a;
+  color: #25ca67;
   font-size: 35px;
 }
+
 .project img {
   width: 700px;
   border-radius: 10px;
 }
 
 .project p {
-  font-size: 40px;
-  color: #3e497a;
+  font-size: 30px;
+  color: #0c105c;
 }
-
 .project svg {
-  font-size: 60px;
+  font-size: 30px;
   color: #3e497a;
 }

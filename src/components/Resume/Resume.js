@@ -11,7 +11,7 @@ function Resume() {
                     <h2>Viet Hung Tran</h2>
                     <p>Web Developer and Integration Engineer</p>
                     <p> My Personal Website: https://viethungtranwebdev.com/Home</p>
-                    <a href ={MyResume}>Download Resume (pdf version)</a>
+                    <a href ={MyResume} target ="_blank" rel="noreferrer">Download Resume (pdf version)</a>
                     <hr />
                     <h3>Professional Summary</h3>
                     <p>Highly motivated, knowledgeable and skilled Web Developer in creating visually appealing, user-friendly and responsive websites and web applications. Proficient in HTML, CSS, JavaScript, Python, Bootstrap, and ReactJS with a solid understanding of web design principles, cross-browser compatibility and accessibility standards. A quick learner and team player with excellent problem-solving and communication skills.</p>

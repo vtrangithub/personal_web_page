@@ -31,14 +31,14 @@ const Weather = () => {
     return (
         <div className="centered-div">
             <div>
-                <div>
-                    <Typography color ="indianred" variant="h4" gutterBottom>
+                <div className='rainbow-title'>
+                    <Typography variant="h3">
                         Weather App
                     </Typography>
                 </div>
                 <div>
                     <TextField
-                        label="Enter city"
+                        label="Enter your city"
                         value={city}
                         onChange={handleCityChange}
                         variant="outlined"
