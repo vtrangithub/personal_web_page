@@ -4,9 +4,9 @@ import React from "react";
 // import FacebookIcon from "@material-ui/icons/Facebook";
 // import GithubIcon from "@material-ui/icons/GitHub";
 // import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import "../styles/Footer.css";
-import MyLinkedinIcon from "./IconLinks/MyLinkedinIcon";
-import MyGithubIcon from "./IconLinks/MyGithubIcon";
+import "../Footer/Footer.css";
+import MyLinkedinIcon from "../IconLinks/MyLinkedinIcon";
+import MyGithubIcon from "../IconLinks/MyGithubIcon";
 
 
 function Footer() {

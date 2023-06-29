@@ -13,7 +13,7 @@ export const ProjectList = [
     status: "Complete"
   },
   {
-    name: "Fun Projects with Reactjs",
+    name: "My ChatBot",
     image: Projnew,
     skills: "React, Javascript, HTML, CSS",
     status: "In Progress"

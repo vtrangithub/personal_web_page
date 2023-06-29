@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-/* h1 {
-  display: flex;
-  justify-content: center;
-} */
-
 .emojiGenerator {
   justify-content: center;
 }
@@ -28,6 +23,45 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 40px;
+  font-size: 20px;
 }
 
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+
+  14% {
+    color: orange;
+  }
+
+  28% {
+    color: yellow;
+  }
+
+  42% {
+    color: green;
+  }
+
+  57% {
+    color: blue;
+  }
+
+  71% {
+    color: indigo;
+  }
+
+  85% {
+    color: violet;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+.rainbow-text {
+  animation: rainbow 8s infinite;
+  text-align: center;
+  /* Center align the text */
+}

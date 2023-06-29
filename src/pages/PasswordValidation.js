@@ -7,7 +7,7 @@ import '../components/PasswordValidation/PasswordValidation.scss';
 
 function PasswordValidation() {
   return <>
-    <div className="centered-content">
+    <div className="rainbow-text">
       <h1> Password Validation</h1>
     </div>
     <div className="centered-content">
@@ -61,8 +61,6 @@ function PasswordValidation() {
     </div>
 
   </>
-
-
 }
 
 export default PasswordValidation;

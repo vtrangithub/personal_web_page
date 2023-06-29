@@ -17,7 +17,11 @@ const EmojiGenerator = () => {
         event.preventDefault();
         if (inputValue.trim() === '') {
             alert('You should enter something');
-        } else if (!isNaN(inputValue) && inputValue < 1500) {
+        }
+        else if (parseInt(inputValue) === 0 || parseInt(inputValue) < 0) {
+            alert('Please enter a positive number!')
+        }
+        else if (!isNaN(inputValue) && inputValue < 1500) {
             setNumberOfEmoji(parseInt(inputValue));
 
         } else {

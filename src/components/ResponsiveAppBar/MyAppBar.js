@@ -11,20 +11,23 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
 
-
-const pages = ["Home",
+const pages = [
+  "Home",
   "Education & Work Experiences",
   "My Resume",
   "My Projects",
-  "Crypto Page",
-  "Weather App",
-  "ToDo List",
+  "My Crypto Page",
+  "My WeatherApp",
+  "My ToDo List",
   "Password Validation",
   "Emoji Generator",
-  "MyChatBot"];
+  "Fun Projects",
+];
 
+const funProjects = ["Project 1", "Project 2", "Project 3"]; // Added dropdown items for Fun Projects
 
-function ResponsiveAppBar() {
+function MyAppBar() {
+    
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -35,7 +38,6 @@ function ResponsiveAppBar() {
   };
 
   return (
-
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -70,13 +72,31 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" fontWeight='bold'>
-                    <Link style={{ textDecoration: "none", color: "firebrick" }} to={`/${page}`} >
+                  <Typography textAlign="center" fontWeight="bold">
+                    <Link
+                      style={{ textDecoration: "none", color: "firebrick" }}
+                      to={`/${page}`}
+                    >
                       {page}
                     </Link>
                   </Typography>
                 </MenuItem>
               ))}
+              <MenuItem onClick={handleCloseNavMenu}>
+                <Typography textAlign="center" fontWeight="bold">
+                  Fun Projects
+                </Typography>
+                {funProjects.map((project) => (
+                  <MenuItem
+                    key={project}
+                    onClick={handleCloseNavMenu}
+                    component={Link}
+                    to={`/${project.replace(" ", "-").toLowerCase()}`}
+                  >
+                    <Typography textAlign="center">{project}</Typography>
+                  </MenuItem>
+                ))}
+              </MenuItem>
             </Menu>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
@@ -86,15 +106,37 @@ function ResponsiveAppBar() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                <Link style={{ textDecoration: "none", color: "firebrick" }} to={`/${page}`} >
+                <Link
+                  style={{ textDecoration: "none", color: "firebrick" }}
+                  to={`/${page}`}
+                >
                   {page}
                 </Link>
               </Button>
             ))}
+            <Button
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: "white", display: "block" }}
+            >
+              <Typography textAlign="center" fontWeight="bold">
+                Fun Projects
+              </Typography>
+              {funProjects.map((project) => (
+                <MenuItem
+                  key={project}
+                  onClick={handleCloseNavMenu}
+                  component={Link}
+                  to={`/${project.replace(" ", "-").toLowerCase()}`}
+                >
+                  <Typography textAlign="center">{project}</Typography>
+                </MenuItem>
+              ))}
+            </Button>
           </Box>
         </Toolbar>
       </Container>
     </AppBar>
   );
 }
-export default ResponsiveAppBar;
+
+export default MyAppBar;

@@ -1,25 +1,21 @@
 import "./App.css";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from '../src/pages/HomePage';
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 import ResumePage from "./pages/ResumePage";
-// import CoinSearch from "./components/CoinSearch/CoinSearch";
 import CryptoPage from "./pages/CryptoPage";
-
 import PasswordValidation from "./pages/PasswordValidation";
 import EmojiPage from "./pages/EmojiPage";
-
-// import Navbar from "./components/Navbar";
-import ResponsiveAppBar from "./components/ResponsiveAppBar/ResponsiveAppBar";
-// import HomePage from "./pages/HomePage";
-// import NotFound from "./NotFound";
 import WeatherPage from "./pages/WeatherPage";
 import MyToDoPage from "./pages/MyToDoPage";
+import ResponsiveAppBar from "./components/ResponsiveAppBar/ResponsiveAppBar";
 
+// import MyAppBar from './components/ResponsiveAppBar/MyAppBar'
+
+import MyChatBot from "./pages/MyChatBot";
 
 function App() {
   return (
@@ -43,21 +39,21 @@ function App() {
 
 
         <ResponsiveAppBar />
+        {/* <MyAppBar /> */}
+
         <Routes>
-          {/* <Route path='*' element={<NotFound />} /> */}
-          {/* <Route path="/" element={<Home />} /> */}
-
           <Route path="Home" element={<HomePage />} />
-
           <Route path="My Projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="Education & Work Experiences" element={<Experience />} />
           <Route path="My Resume" element={<ResumePage />} />
-          <Route path="My Crypto Page" element={<CryptoPage />} />
-          <Route path="My ToDo List" element={<MyToDoPage />} />
+          <Route path="Crypto Page" element={<CryptoPage />} />
+          <Route path="ToDo List" element={<MyToDoPage />} />
           <Route path="Password Validation" element={<PasswordValidation />} />
           <Route path="Emoji Generator" element={<EmojiPage />} />
-          <Route path ="My WeatherApp" element ={<WeatherPage />} />
+          <Route path="Weather App" element={<WeatherPage />} />
+
+          <Route path="MyChatBot"  element ={<MyChatBot />}/>
         </Routes>
         <Footer />
       </Router>

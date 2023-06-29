@@ -40,7 +40,7 @@ const PasswordValidationOne = () => {
             <Stack justifyContent={"center"} spacing={1} direction="row">
                 <Button variant="contained" type="button" onClick={handleResetClick}>Reset</Button>
                 <Button type="button" variant="contained" onClick={handleValidation}>Validate</Button>
-                {isValid && <p><strong>Congrats. Your password is valid</strong></p>}
+                {isValid && <p><strong>Good job! Your password is valid</strong></p>}
                 {!isValid && password !== '' && <p><strong>Please check the criteria</strong></p>}
             </Stack>
 

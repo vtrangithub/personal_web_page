@@ -1,0 +1,29 @@
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  @keyframes flash-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  // .flashing-heading {
+  //   animation: flash-animation 1s infinite;
+  // }
+  .flashing-rainbow-heading {
+    animation: flash-animation 1s infinite;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; /* Center align the text */
+  }
