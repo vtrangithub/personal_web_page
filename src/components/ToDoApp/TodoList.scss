@@ -46,16 +46,55 @@
         }
     }
 
-    .highlighted-task {
-        background-color: yellow;
-    }
+    // .highlighted-task {
+    //     background-color: yellow;
+    // }
 
-    .no-tasks {
-        color: red;
-    }
+    // .no-tasks {
+    //     color: red;
+    // }
 
-    .completed-task {
-        text-decoration: line-through;
-    }
+    // .completed-task {
+    //     text-decoration: line-through;
+    // }
+
+
+    ul {
+        list-style: none;
+        padding: 0;
+    
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+    
+          &.highlighted-task {
+            background-color: yellow; /* Add background color to highlight searched tasks */
+          }
+    
+          &.completed-task {
+            text-decoration: line-through; /* Add strikethrough to completed tasks */
+          }
+    
+          .task-title {
+            flex: 1;
+            margin-right: 10px;
+            font-weight: bold;
+          }
+    
+          .delete-button {
+            margin-left: 10px;
+          }
+        }
+      }
+    
+      .no-tasks {
+        font-style: italic;
+        color: #999;
+      }
 
 }

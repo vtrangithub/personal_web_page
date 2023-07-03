@@ -21,7 +21,7 @@ const pages = ["Home",
   "ToDo List",
   "Password Validation",
   "Emoji Generator",
-  "MyChatBot"];
+  "ChatGPT Clone"];
 
 
 function ResponsiveAppBar() {

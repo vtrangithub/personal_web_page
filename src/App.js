@@ -53,7 +53,7 @@ function App() {
           <Route path="Emoji Generator" element={<EmojiPage />} />
           <Route path="Weather App" element={<WeatherPage />} />
 
-          <Route path="MyChatBot"  element ={<MyChatBot />}/>
+          <Route path="ChatGPT Clone"  element ={<MyChatBot />}/>
         </Routes>
         <Footer />
       </Router>

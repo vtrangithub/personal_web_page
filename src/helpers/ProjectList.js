@@ -13,9 +13,9 @@ export const ProjectList = [
     status: "Complete"
   },
   {
-    name: "My ChatBot",
+    name: "ChatBot (ChatGPT Clone)",
     image: Projnew,
-    skills: "React, Javascript, HTML, CSS",
+    skills: "React, Javascript, HTML, CSS, API",
     status: "In Progress"
   },
   {

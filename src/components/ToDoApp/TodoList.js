@@ -99,10 +99,12 @@
 // };
 
 // export default TodoList;
-// ---------------------------------------------------
+// ------------------------------------------------------------------------------------------------
+// 
+// --------------------------------------------------------------------------------------------------
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addTask, searchTask, updateTask } from './actions';
+import { addTask, searchTask, updateTask, deleteTask } from './actions';
 import { TextField, Button, FormControl, RadioGroup, FormControlLabel, Radio, Typography } from '@material-ui/core';
 import './TodoList.scss';
 
@@ -140,6 +142,10 @@ const TodoList = () => {
     setSearchedTask('');
   };
 
+  const handleDeleteTask = (index) => {
+    dispatch(deleteTask(index));
+  };
+
   const handleTaskClick = (index) => {
     const updatedTasks = [...tasks];
     updatedTasks[index].completed = !updatedTasks[index].completed;
@@ -148,13 +154,13 @@ const TodoList = () => {
 
   return (
     <div className="container">
-       <Typography variant="h3" gutterBottom className="rainbow-title">
+      <Typography variant="h3" gutterBottom className="rainbow-title">
         Todo List
       </Typography>
 
       <FormControl>
         <TextField
-          label="Enter a task here"
+          label="Enter your task here"
           value={taskName}
           onChange={(e) => setTaskName(e.target.value)}
           margin="normal"
@@ -173,7 +179,7 @@ const TodoList = () => {
 
       <br />
 
-      <Typography variant="h5" gutterBottom>
+      <Typography style={{ color: "red" }} variant="h5" gutterBottom>
         Task List
       </Typography>
 
@@ -198,7 +204,15 @@ const TodoList = () => {
               className={`${task.isSearched ? 'highlighted-task' : ''} ${task.completed ? 'completed-task' : ''}`}
               onClick={() => handleTaskClick(index)}
             >
-              {task.name} - {task.priority}
+              <div>
+                {task.name} - {task.priority}
+              </div>
+              <div>
+                <Button variant="contained" color="secondary" onClick={() => handleDeleteTask(index)}>
+                  Delete
+                </Button>
+              </div>
+
             </li>
           ))
         ) : (

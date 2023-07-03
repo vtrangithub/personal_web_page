@@ -10,8 +10,8 @@ function Resume() {
                 <div>
                     <h2>Viet Hung Tran</h2>
                     <p>Web Developer and Integration Engineer</p>
-                    <p> My Personal Website: https://viethungtranwebdev.com/Home</p>
-                    <a href ={MyResume} target ="_blank" rel="noreferrer">Download Resume (pdf version)</a>
+                    <p><em><b>My Personal Website: https://viethungtranwebdev.com/Home</b></em> </p>
+                    <a href={MyResume} target="_blank" rel="noreferrer">Download Resume (pdf version)</a>
                     <hr />
                     <h3>Professional Summary</h3>
                     <p>Highly motivated, knowledgeable and skilled Web Developer in creating visually appealing, user-friendly and responsive websites and web applications. Proficient in HTML, CSS, JavaScript, Python, Bootstrap, and ReactJS with a solid understanding of web design principles, cross-browser compatibility and accessibility standards. A quick learner and team player with excellent problem-solving and communication skills.</p>
@@ -40,22 +40,36 @@ function Resume() {
                     <li>Added animations and transitions for a visually engaging user experience.</li>
                     <li>Demonstrated proficiency in ReactJS, HTML, and CSS while showcasing strong UI design principles and attention to detail.</li>
 
-                    <br />
                     <h5>Crypto Tracker App (React, JavaScript, HTML, CSS):</h5>
                     <li>Developed a single-page application using React and styled with HTML and CSS.</li>
                     <li>Implemented real-time data fetching of cryptocurrency prices using an API.</li>
                     <li>Designed and developed the user interface for displaying real-time data in a clean and organized manner.</li>
-                    
-                    <hr />
-                    <h5>To Do List App (React, Redux, JavaScript, HTML, CSS):</h5>
 
+                    <h5>To Do List App (React, Redux, JavaScript, HTML, CSS):</h5>
                     <li>Developed a front-end to-do application using React and Redux, showcasing expertise in modern front-end web development.</li>
                     <li>Built using React, Redux, and Sass.</li>
                     <li>Implemented features for task adding, task searching, and filtering, leveraging Redux for efficient state management.</li>
                     <li>Created a responsive user interface using React components, enhancing the user experience.</li>
 
+                    <h5>Password Validation (React, JavaScript, HTML, CSS, Regex):</h5>
+                    <li>Developed a password validation application using React, JavaScript, HTML, and CSS.</li>
+                    <li>Implemented Regex patterns to enforce strong and secure password criteria.</li>
+                    <li>Designed a user-friendly interface with error handling.</li>
+                    <li>Deployed the application to a hosting platform for easy access and demonstration.</li>
 
-                    <br />
+                    <h5>Emoji Generator (React, JavaScript, HTML, CSS):</h5>
+                    <li>Developed an emoji generator application using React.</li>
+                    <li>Implemented functionality to prompt users to enter a number.</li>
+                    <li>Displayed the corresponding number of smiley faces on the screen.</li>
+                    <li>Designed a user-friendly interface for an enjoyable user experience.</li>
+
+                    <h5>Weather App (React, JavaScript, HTML, CSS):</h5>
+                    <li>Developed a weather application using React, JavaScript, HTML, and CSS.</li>
+                    <li>Integrated weather API to fetch real-time weather data.</li>
+                    <li>Designed and developed a user interface to display weather information in a visually appealing manner.</li>
+                    <li>Deployed the app for easy access and demonstration.</li>
+                    <hr />
+
                     <h3>Experience</h3>
                     <h4>Ultrasound AOP Lab Lead & Engineering Specialist</h4>
                     <p><em>Siemens Medical Solution Inc</em> - Issaquah, WA (2021-Current)</p>
@@ -74,7 +88,7 @@ function Resume() {
                         <li>Fabricate propulsion equipment, including complex mechanical installations.</li>
                         <li>Maintain lab hardware, testers, facilities and inventory of parts and equipment. Ensure safe working conditions and improve processes and operational efficiency.</li>
                     </ul>
-                    <hr />
+
                     <h4>Aircraft Test Tech</h4>
                     <p><em>The Boeing company</em> - Renton, WA (2018)</p>
                     <ul>
@@ -84,7 +98,7 @@ function Resume() {
                         <li>Utilizes a variety of computer applications, power meters, oscilloscopes and industry-specific, manual and power tools to advance productivity and achieve project goals.</li>
                         <li>Provides guidance and direction to other aircraft technicians relating to workflow sequences, troubleshooting and the analysis, investigation, and resolution of complex technical issues.</li>
                     </ul>
-                    <hr />
+
                     <h4>FAA Avionics Specialist</h4>
                     <p><em>Honeywell</em> - Renton, WA (2015-2018)</p>
                     <ul>
@@ -94,7 +108,7 @@ function Resume() {
                         <li>Captured gains in efficiency and productivity through the use of Lean methodologies, 5S, and the Honeywell 8 Behaviors.</li>
                         <li>Served as a trusted advisor and subject matter expert, providing guidance and training to colleagues in the principles of assembly repair and maintenance.</li>
                     </ul>
-                    <hr />
+
                     <h4>Medical Device Manufacturing</h4>
                     <p><em>Stryker Inc</em> - Redmond, WA (2014-2015)</p>
                     <ul>
@@ -123,7 +137,7 @@ function Resume() {
                     <ul>
                         <li>Email: vtranseattle@gmail.com</li>
                         <li>Phone: 206-288-9167</li>
-                        <li>LinkedIn: <a style={{color: "blue"}} href="https://www.linkedin.com/in/viet-tran-95baab172" target="_blank" rel="noreferrer">My LinkedIn</a></li>
+                        <li>LinkedIn: <a style={{ color: "blue" }} href="https://www.linkedin.com/in/viet-tran-95baab172" target="_blank" rel="noreferrer">My LinkedIn</a></li>
                     </ul>
                 </div>
             </div>

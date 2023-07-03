@@ -4,7 +4,7 @@ function MyChatBot() {
     return (
         <>
             <div className='centered-content'>
-                <h2 className='flashing-rainbow-heading'>Stay tuned!</h2>
+                <h1 className='flashing-rainbow-heading'>Stay tuned!</h1>
 
             </div>
         </>

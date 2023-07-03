@@ -4,14 +4,18 @@ import self_photo from '../Home/self_photo.jpg';
 import ContactMe from "../ContactForm/ContactMe";
 
 
+
+
 function Home() {
+
   return (
+
     <div className="container">
       <div >
         <br />
         <br />
         <br />
-        <h3 style={{ textAlign: "center", color: "mediumblue" }}> Viet Hung Tran</h3>
+        <h3 className="rainbow-title"> Viet Hung Tran</h3>
 
         <h5 style={{ textAlign: "center", color: "firebrick" }}>Web Developer & Integration Engineering</h5>
         <p style={{ textAlign: "center", color: "navy" }}>Welcome to my portfolio page.</p>
