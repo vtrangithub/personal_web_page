@@ -17,8 +17,8 @@ function Home() {
         <br />
         <h3 className="rainbow-title"> Viet Hung Tran</h3>
 
-        <h5 style={{ textAlign: "center", color: "firebrick" }}>Web Developer & Integration Engineering</h5>
-        <p style={{ textAlign: "center", color: "navy" }}>Welcome to my portfolio page.</p>
+        <h4 style={{ textAlign: "center", color: "firebrick" }}>Web Developer & Integration Engineer</h4>
+        <p style={{ textAlign: "center", color: "navy" }}>Welcome to my portfolio page</p>
 
         <div className="image-container">
           <center>

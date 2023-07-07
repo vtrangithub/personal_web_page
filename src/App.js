@@ -16,6 +16,7 @@ import ResponsiveAppBar from "./components/ResponsiveAppBar/ResponsiveAppBar";
 // import MyAppBar from './components/ResponsiveAppBar/MyAppBar'
 
 import MyChatBot from "./pages/MyChatBot";
+import TextSeparator from "./components/TextSeparator/TextSeparator";
 
 function App() {
   return (
@@ -52,7 +53,7 @@ function App() {
           <Route path="Password Validation" element={<PasswordValidation />} />
           <Route path="Emoji Generator" element={<EmojiPage />} />
           <Route path="Weather App" element={<WeatherPage />} />
-
+          <Route  path ="Text Separator" element ={<TextSeparator />} />
           <Route path="ChatGPT Clone"  element ={<MyChatBot />}/>
         </Routes>
         <Footer />

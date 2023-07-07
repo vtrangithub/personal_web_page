@@ -21,6 +21,7 @@ const pages = ["Home",
   "ToDo List",
   "Password Validation",
   "Emoji Generator",
+  "Text Separator",
   "ChatGPT Clone"];
 
 
