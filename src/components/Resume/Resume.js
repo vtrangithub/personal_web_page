@@ -68,6 +68,13 @@ function Resume() {
                     <li>Integrated weather API to fetch real-time weather data.</li>
                     <li>Designed and developed a user interface to display weather information in a visually appealing manner.</li>
                     <li>Deployed the app for easy access and demonstration.</li>
+
+                    <h5>Text Separator App (React, Material-UI, CSS):</h5>
+                    <li>Developed a text separator application using React and Material-UI.</li>
+                    <li>Implemented functionality to separate user-inputted text into strings, numbers, and special characters. </li>
+                    <li>Highlighted the extracted strings, numbers, and special characters for improved readability.  </li>
+                    <li>Designed a responsive and user-friendly interface using Material-UI components.</li>
+                    <li>Displayed the separated categories of the input text in a visually appealing manner. </li>
                     <hr />
 
                     <h3>Experience</h3>

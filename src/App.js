@@ -43,7 +43,9 @@ function App() {
         {/* <MyAppBar /> */}
 
         <Routes>
+          <Route path="/" element={<HomePage />} />
           <Route path="Home" element={<HomePage />} />
+
           <Route path="My Projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="Education & Work Experiences" element={<Experience />} />
@@ -53,8 +55,8 @@ function App() {
           <Route path="Password Validation" element={<PasswordValidation />} />
           <Route path="Emoji Generator" element={<EmojiPage />} />
           <Route path="Weather App" element={<WeatherPage />} />
-          <Route  path ="Text Separator" element ={<TextSeparator />} />
-          <Route path="ChatGPT Clone"  element ={<MyChatBot />}/>
+          <Route path="Text Separator" element={<TextSeparator />} />
+          <Route path="ChatGPT Clone" element={<MyChatBot />} />
         </Routes>
         <Footer />
       </Router>
