@@ -75,9 +75,15 @@ function Resume() {
                     <li>Highlighted the extracted strings, numbers, and special characters for improved readability.  </li>
                     <li>Designed a responsive and user-friendly interface using Material-UI components.</li>
                     <li>Displayed the separated categories of the input text in a visually appealing manner. </li>
+
+                    <h5>ChatGPT cloner  (React, JavaScript, Chat UI Kit, OpenAI API):</h5>
+                    <li>Developed a ChatGPT Cloner using React and Chat UI Kit, showcasing expertise in modern front-end web development and API integration.</li>
+                    <li>Integrated the OpenAI API to process user messages and provide accurate responses from the custom ChatGPT model. </li>
+                    <li>Implemented real-time typing indicators for improved user experience during processing.</li>
+                    
                     <hr />
 
-                    <h3>Experience</h3>
+                    <h3>Career Track</h3>
                     <h4>Ultrasound AOP Lab Lead & Engineering Specialist</h4>
                     <p><em>Siemens Medical Solution Inc</em> - Issaquah, WA (2021-Current)</p>
                     <ul>

@@ -119,7 +119,7 @@ function Experience() {
             Honeywell, Renton, WA
           </h4>
           <ul>
-            <li>Attained certification as technician and quality inspector for avionic devices, while troubleshooting, inspecting, repairing, overhauling, testing, modifying, and maintaining the Radar Transceiver. </li>
+            <li>Attained certification as repair specialist and quality inspector for avionic devices, while troubleshooting, inspecting, repairing, overhauling, testing, modifying, and maintaining the Radar Transceiver. </li>
           </ul>
 
         </VerticalTimelineElement>
