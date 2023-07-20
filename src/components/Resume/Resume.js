@@ -9,8 +9,8 @@ function Resume() {
             <div >
                 <div>
                     <h2>Viet Hung Tran</h2>
-                    <p>Web Developer and Integration Engineer</p>
-                    <p><em><b>My Personal Website: https://viethungtranwebdev.com/Home</b></em> </p>
+                    <h3>Web Developer and Integration Engineer</h3>
+                    <p><em><b>My Personal Website: https://viethungtranwebdev.com</b></em> </p>
                     <a href={MyResume} target="_blank" rel="noreferrer">Download Resume (pdf version)</a>
                     <hr />
                     <h3>Professional Summary</h3>
