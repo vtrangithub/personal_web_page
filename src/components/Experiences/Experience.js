@@ -42,7 +42,9 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Nucamp Bootcamp
           </h3>
-          <p> Full Stack Web Development</p>
+          <h4> Full Stack Web Development</h4>
+          <p>Front End Web and Mobile Development (Front-End Web UI Framework, Bootstrap, Front End JavaScript Library with React, Multiplatform Mobile App Development with React Native)</p>
+          <p>Backend, SQL, and DevOps with Python (Python Fundamentals, Data Structures, and Algorithms, SQL and Python, Modern Software Engineering with DevOps)</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -120,6 +122,23 @@ function Experience() {
           </h4>
           <ul>
             <li>Attained certification as repair specialist and quality inspector for avionic devices, while troubleshooting, inspecting, repairing, overhauling, testing, modifying, and maintaining the Radar Transceiver. </li>
+          </ul>
+
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2015-2018"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Production Technician
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Stryker, Redmond, WA
+          </h4>
+          <ul>
+            <li>Led testing, investigation, and troubleshooting of devices produced by this world leader in the development, manufacturing, sale and service of external defibrillator/monitors and emergency medical response equipment. </li>
           </ul>
 
         </VerticalTimelineElement>

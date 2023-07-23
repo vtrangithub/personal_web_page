@@ -1,5 +1,5 @@
-import '../components/MyChatBot/MyChatBot.scss';
-import ChatGPTCloner from "../components/MyChatBot/ChatGPTCloner";
+import '../components/ChatGPTCloner/MyChatBot.scss';
+import ChatGPTCloner from "../components/ChatGPTCloner/ChatGPTCloner";
 
 function MyChatBotPage() {
     return (

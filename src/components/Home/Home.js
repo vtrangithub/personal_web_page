@@ -12,9 +12,7 @@ function Home() {
 
     <div className="container">
       <div >
-        <br />
-        <br />
-        <br />
+
         <h3 className="rainbow-title"> Viet Hung Tran</h3>
 
         <h4 style={{ textAlign: "center", color: "firebrick" }}>Web Developer & Integration Engineer</h4>
